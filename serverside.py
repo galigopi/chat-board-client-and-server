@@ -25,7 +25,7 @@ connection.send(name.encode())
 while True:
     message=input('me>')
     if message=='[bye]':
-        message='good night'
+        message='chat you later'
         connection.send(message.encode())
         print("\n")
         break
